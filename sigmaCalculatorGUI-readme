@@ -1,0 +1,45 @@
+# SOEN 6011 – Deliverable 2:
+
+## 🧠 Function F8 – σ (Standard Deviation)
+
+This project is a Java-based GUI implementation of the **σ (sigma)** function, interpreted as the **standard deviation** of a list of numbers.
+The GUI was built using **Java Swing** and adheres strictly to the D2 Problem 5 constraint: implemented entirely **from scratch**, without using Java Math libraries such as `Math.sqrt()` or `Math.pow()`.
+
+---
+
+## 🚀 Features
+
+- 📥 Accepts comma-separated real numbers as input
+- 🧮 Computes **population standard deviation**
+- ✅ Manual implementation of:
+  - `square(x)`
+  - `sqrt(x)` using Newton-Raphson
+  - `absolute(x)`
+- 🎨 Intuitive and responsive **Java Swing GUI**
+- 🔁 Handles edge cases and invalid inputs gracefully
+- ❌ No dependency on external libraries or IDE
+
+---
+
+## 💡 How to Compile and Run (No IDE Needed)
+
+1. **Open Terminal / Command Prompt**
+2. Navigate to the directory containing `SigmaCalculatorGUI_Final_Compliant.java`
+3. Run the following commands:
+
+```bash
+javac SigmaCalculatorGUI_Final_Compliant.java
+java SigmaCalculatorGUI
+
+
+## Example
++---------------------------------------------+
+| Enter numbers separated by commas:          |
+| [   3.5, 5.0, 8.25, 6.0, 4.75   ]            |
+|                                             |
+| [ Calculate Standard Deviation ]            |
+|                                             |
+| Result: σ = 1.5285                          |
+|                                             |
+|                                             |
++---------------------------------------------+

@@ -1,0 +1,17 @@
+| **Test Case ID** | **Description**                 | **Input**                | **Expected Output**                                     | **Pass Criteria**                      |
+| ---------------- | ------------------------------- | ------------------------ | ------------------------------------------------------- | -------------------------------------- |
+| TC01             | Valid standard input (5 values) | `5, 7, 8, 6, 4`          | `σ = 1.4142` (rounded to 4 decimal places)              | Output is accurate and formatted well  |
+| TC02             | Input with whitespace           | `2 , 4 , 6 , 8 , 10`     | `σ = 2.8284`                                            | Handles whitespace, computes correctly |
+| TC03             | Only one value                  | `7`                      | Error: "At least two values are required."              | Error message is shown clearly         |
+| TC04             | Empty input                     | *(Leave input blank)*    | Error: "Input cannot be empty."                         | Error is shown below result label      |
+| TC05             | Non-numeric input               | `3, x, 5`                | Error: "Invalid input. Please enter only real numbers." | Rejected without crash                 |
+| TC06             | Duplicate commas                | `2,,4`                   | Error: "Invalid input..."                               | Rejected with friendly message         |
+| TC07             | All zero values                 | `0, 0, 0, 0`             | `σ = 0.0000`                                            | Valid and correct                      |
+| TC08             | All equal values                | `9, 9, 9`                | `σ = 0.0000`                                            | Valid and correct                      |
+| TC09             | Mixed sign values               | `-3, 2, 7`               | `σ = 4.0825`                                            | Correct and formatted                  |
+| TC10             | Long decimal precision          | `1.1111, 1.2222, 1.3333` | `σ = 0.0907`                                            | Rounded to 4 decimals                  |
+| TC11             | Invalid token: Infinity         | `3, Infinity, 4`         | Error: "Invalid input..."                               | Rejected safely                        |
+| TC12             | > 100 values                    | 101 numbers              | Error: "Too many values. Maximum allowed is 100."       | Rejected without crash                 |
+| TC13             | Exactly 100 values              | 100 x `1`                | `σ = 0.0000`                                            | Edge case accepted                     |
+| TC14             | Negative numbers                | `-5, -3, -1`             | `σ = 1.6329`                                            | Valid result shown                     |
+| TC15             | Floating point edge             | `0.1, 0.2, 0.3, 0.4`     | `σ = 0.1118`                                            | Handles small values                   |
