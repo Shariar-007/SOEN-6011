@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88f493cb-3fab-4222-8b1c-272053e22202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SigmaCalculatorGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SigmaCalculatorGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checkstyle-10.12.4-all.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google_checks_fixed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752818824984</updated>
       <workItem from="1752818826141" duration="3182000" />
-      <workItem from="1754207647495" duration="7056000" />
+      <workItem from="1754207647495" duration="9799000" />
     </task>
     <servers />
   </component>
@@ -104,20 +93,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java</url>
-          <line>67</line>
-          <properties class="SigmaCalculatorGuiStyleCompliant" method="calculateStandardDeviation">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

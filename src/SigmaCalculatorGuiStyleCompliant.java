@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,6 +25,7 @@ public class SigmaCalculatorGuiStyleCompliant extends JFrame {
   private JTextField inputField;
   private JLabel resultLabel;
   private JLabel errorLabel;
+  private JLabel titleLabel;
 
   /**
    * Constructs the GUI interface for the Sigma Standard Deviation Calculator.
@@ -35,23 +37,32 @@ public class SigmaCalculatorGuiStyleCompliant extends JFrame {
     setLocationRelativeTo(null);
     setLayout(new GridLayout(5, 1));
 
-    JLabel titleLabel = new JLabel("Enter numbers separated by commas:");
+    Font font = new Font("Arial", Font.PLAIN, 16);
+
+    titleLabel = new JLabel("Enter numbers separated by commas:");
     titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
+    titleLabel.setFont(font);
     add(titleLabel);
 
     inputField = new JTextField();
+    inputField.setFont(font);
+    inputField.setToolTipText("Enter up to 100 real numbers separated by commas");
     add(inputField);
 
     JButton calculateButton = new JButton("Calculate Standard Deviation");
+    calculateButton.setFont(font);
+    calculateButton.setToolTipText("Click to calculate standard deviation");
     add(calculateButton);
 
     resultLabel = new JLabel("Result: ");
     resultLabel.setHorizontalAlignment(SwingConstants.CENTER);
+    resultLabel.setFont(font);
     add(resultLabel);
 
     errorLabel = new JLabel("");
     errorLabel.setForeground(Color.RED);
     errorLabel.setHorizontalAlignment(SwingConstants.CENTER);
+    errorLabel.setFont(font);
     add(errorLabel);
 
     calculateButton.addActionListener(new ActionListener() {
