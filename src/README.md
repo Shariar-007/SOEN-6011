@@ -67,3 +67,13 @@ SigmaCalculatorGUI/
 ├── google_checks_fixed.xml
 ├── pmd-bin-6.55.0/
 └── README.md
+
+✅ Testing Framework Used – JUnit 5 (JUnit Jupiter)
+To ensure thorough testing of the SigmaCalculatorGuiStyleCompliant Java application, JUnit 5 (JUnit Jupiter) was used as the testing framework. Instead of using Maven or Gradle, the junit-platform-console-standalone-1.10.0.jar was manually added and executed via command line. This approach allowed running all test classes without relying on a build tool.
+
+The test class SigmaCalculatorGuiStyleCompliantTest.java was compiled and executed using the following command:
+
+javac -cp ".:lib/*" src/SigmaCalculatorGuiStyleCompliant.java src/SigmaCalculatorGuiStyleCompliantTest.java
+java -jar lib/junit-platform-console-standalone-1.10.0.jar --class-path src --scan-class-path
+
+The successful test execution confirmed that the custom mathematical functions (e.g., square, sqrt, absolute) and input validation logic behave correctly under various test cases including normal input, edge cases, and error handling.

@@ -6,12 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="88f493cb-3fab-4222-8b1c-272053e22202" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SigmaCalculatorGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SigmaCalculatorGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliantTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SigmaCalculatorGuiStyleCompliantTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,10 +47,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mohammadalshariar/Office Folder/GIM Office Folder/Back-End/SigmaCalculatorGUI/SigmaCalculatorGUI/src",
+    "last_opened_file_path": "/Users/mohammadalshariar/Office Folder/GIM Office Folder/Back-End/SigmaCalculatorGUI/SigmaCalculatorGUI/src/Screenshots",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,9 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Screenshots" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Screenshots" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752818824984</updated>
       <workItem from="1752818826141" duration="3182000" />
-      <workItem from="1754207647495" duration="9799000" />
+      <workItem from="1754207647495" duration="25885000" />
     </task>
     <servers />
   </component>
